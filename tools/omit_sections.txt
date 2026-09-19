@@ -1,0 +1,64 @@
+# Sections left out of structured/ (their text stays in the extraction and a
+# one-line marker with the page cite takes their place): legal, licensing,
+# warranty, trademark and regulatory boilerplate that carries no engineering
+# content. One title per line, matched against the whole heading text after
+# normalisation (case, spacing, a leading chapter number and a trailing
+# parenthetical such as "(FLIR)" or "(Part 15.105)" ignored). "*" matches any
+# run of characters. Only the heading's own body is omitted, up to the next
+# heading of any level: a container such as "Regulatory notices" keeps its
+# technical sub-sections (compass safe distance, EMC guidelines, water
+# ingress, type approvals, approval codes, RF exposure statements).
+legal notice
+legal notices
+trademark notice
+trademarks
+trademarks and patents notice
+trademark and patents notice
+trademark and patent notice
+trademarks and registered trademarks
+trademarks and permissions
+registered trademarks
+patents notice
+patent notice
+fair use statement
+publication copyright
+copyright
+copyright notice
+disclaimer
+disclaimers
+technical accuracy
+declaration of conformity
+eu declaration of conformity
+simplified eu declaration of conformity
+ce declaration of conformity
+warranty
+warranty registration
+warranty policy
+warranty policy and registration
+product warranty
+limited warranty
+* limited warranty
+language translations notice
+translations
+regulatory notices
+regulatory notice
+regulatory e-label
+fcc notice
+fcc information
+fcc interference statement
+fcc interference statement *
+fcc part 15 statement
+fcc warning
+warning: fcc warning
+compliance statement
+compliance statement *
+open source license agreements
+open source licence agreements
+open source licenses
+open source licences
+open source software licenses
+open source software
+psti compliance
+content notice
+artificial intelligence (ai) content notice
+ai content notice

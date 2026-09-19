@@ -1,0 +1,100 @@
+# Verified glyph table for fonts the font check flags. Applied by structure.py
+# to body lines and headings; a glyph from a flagged font with no entry here
+# stays as it is in the extraction.
+# Columns, tab-separated: font family | glyph(s) as the text layer gives them
+# (U+XXXX for one code point) | replacement (empty = glyph carries no text,
+# such as one piece of a tall bracket) | where it was verified against the
+# rendered page (source file, pdf page) | optional: only for this source file.
+# The key is the font family, because a font draws the same picture for the
+# same code in every document; a per-file entry is for a code the font itself
+# leaves undefined (U+FFFD).
+# The text layer may repeat a glyph (a pictogram drawn as a wide and a thin
+# glyph, "qq"); a run of one key counts as one glyph.
+FtgHround	q	①	IC-M423_1.pdf p13
+FtgHround	w	②	IC-M423_1.pdf p13
+FtgHround	e	③	IC-M423_1.pdf p13
+FtgHround	r	④	IC-M423_1.pdf p13
+FtgHround	t	⑤	IC-M423_1.pdf p13
+FtgHround	y	⑥	IC-M423_1.pdf p13
+FtgHround	u	⑦	IC-M423_1.pdf p13
+FtgHround	i	⑧	IC-M423_1.pdf p13
+FtgHround	o	⑨	IC-M423_1.pdf p13
+FtginHro	q	❶	IC-M423_1.pdf p8
+FtginHro	w	❷	IC-M423_1.pdf p8
+FtginHro	e	❸	IC-M423_1.pdf p8
+FtginHro	r	❹	IC-M423_1.pdf p8
+FtginHro	t	❺	IC-M423_1.pdf p8
+FtginHro	y	❻	IC-M423_1.pdf p8
+FtginHro	u	❼	IC-M423_1.pdf p8
+FtginHro	i	❽	IC-M423_1.pdf p8
+FtginHro	o	❾	IC-M423_1.pdf p8
+FtginHro	!0	❿	IC-M423_1.pdf p10
+FtginHro	!1	⓫	IC-M423_1.pdf p10
+FtginHro	!2	⓬	IC-M423_1.pdf p10
+FtginHro	!3	⓭	IC-M423_1.pdf p10
+FtginHro	!4	⓮	IC-M423_1.pdf p10
+FtginHro	!5	⓯	IC-M423_1.pdf p10
+FtginHro	!6	⓰	IC-M423_1.pdf p10
+FtginHro	!7	⓱	IC-M423_1.pdf p10
+FtginHro	!8	⓲	Icom_IC-M423G_manual_en.pdf p15
+IcomHelv	U+02D8	Ω	IC-M423_1.pdf p73
+IcomHelv	U+2126	◀	IC-M423_1.pdf p8
+IcomHelv	U+2248	▶	IC-M423_1.pdf p8
+IcomHelv	U+222B	▲	IC-M423_1.pdf p8
+IcomHelv	U+221A	▼	IC-M423_1.pdf p8
+IcomProductFont	D	◇	IC-M423_1.pdf p2
+IcomProductFont	R	⚠	IC-M423_1.pdf p2
+IcomProductFont	Y	▲	IC-M423_1.pdf p12
+IcomProductFont	Z	▼	IC-M423_1.pdf p12
+Icom1ModelName	i	IC-	IC-M423_1.pdf p1
+Symbol	U+F8E9	©	U9110-BSW Wireless Belt Station manual.pdf p1
+SymbolMT	U+F0B7	•	U9100 Master Station manual.pdf p9
+SymbolMT	U+F0E3	©	U9120-W4 Wireless Gateway manual.pdf p1
+SymbolMT-Identity-H	U+F8EB		LEM HAB 120-V.pdf p3 (top piece of a tall left parenthesis)
+SymbolMT-Identity-H	U+F8EC	(	LEM HAB 120-V.pdf p3 (middle piece, on the line of the equation)
+SymbolMT-Identity-H	U+F8ED		LEM HAB 120-V.pdf p3 (bottom piece)
+SymbolMT-Identity-H	U+F8F6		LEM HAB 120-V.pdf p3 (top piece of a tall right parenthesis)
+SymbolMT-Identity-H	U+F8F7	)	LEM HAB 120-V.pdf p3 (middle piece)
+SymbolMT-Identity-H	U+F8F8		LEM HAB 120-V.pdf p3 (bottom piece)
+Wingdings	U+0083	▪	ADAM-4570_L_4571_L_DS(022124)20240223101310.pdf p1
+Wingdings	Æ	→	ADAM-4570_4571_Manual_Ed3.pdf p30
+Wingdings	U+F025	⍾	A100_installation_and_user_guide__English__v4.pdf p13 (bell)
+Wingdings	U+F02A	✉	A100_installation_and_user_guide__English__v4.pdf p13
+Wingdings	U+F06C	●	RT147_HM_MG460_V1.0.1.pdf p3
+Wingdings	U+F071	❑	U9100 Master Station manual.pdf p8
+Wingdings	U+F09F	•	RT147_SM_MG460_Software Manual V1.0.1.pdf p20
+Wingdings	U+F0A7	▪	U9100 Master Station manual.pdf p11
+Wingdings	U+F0AB	★	IC-M423_1.pdf p23
+Wingdings	U+F0D8	➢	RT147_DS_MG460 Gateway_V1.0.2.pdf p1
+Wingdings	U+FFFD	☐	Pathfinder ECDIS & ECS System Commissioning & Acceptance Testing Instructions 81427 (Rev 1).pdf p52	Pathfinder ECDIS & ECS System Commissioning & Acceptance Testing Instructions 81427 (Rev 1).pdf
+Wingdings	U+FFFD	☐	YachtSense DCS Installation and Operation instructions 81394 (Rev 9) (EN).pdf p91	YachtSense DCS Installation and Operation instructions 81394 (Rev 9) (EN).pdf
+Wingdings3	p	▲	IC-M423_1.pdf p63
+Wingdings3	q	▼	IC-M423_1.pdf p63
+ZapfDingbats	+	☞	IC-M423_1.pdf p33
+ZapfDingbats	U+F8DD	❬	IC-M423_1.pdf p25
+ZapfDingbats	U+F8DE	❭	IC-M423_1.pdf p25
+IcomProduct	Y	▲	icom_ic-m423_ic-m424_sm.pdf p25
+IcomProduct	Z	▼	icom_ic-m423_ic-m424_sm.pdf p25
+# Identity lines: the glyph prints as the text layer says; listed so the review stage knows they were checked.
+Icom1ModelName	2	2	IC-M423_1.pdf p1 (model-name logo)
+Icom1ModelName	3	3	IC-M423_1.pdf p1
+Icom1ModelName	4	4	IC-M423_1.pdf p1
+Icom1ModelName	G	G	Icom_IC-M423G_manual_en.pdf p1
+Icom1ModelName	M	M	IC-M423_1.pdf p1
+IcomHelv	U+00D7	×	IC-M423_1.pdf p79
+SegoeUISymbol	U+26A0	⚠	RT147_HM_MG460_V1.0.1.pdf p5
+Symbol	U+2022	•	U9110-BSW Wireless Belt Station manual.pdf p9
+SymbolMT	U+00D7	×	IC-M423_1.pdf p83
+SymbolMT	U+03A9	Ω	icom_ic-m423_ic-m424_sm.pdf p15
+SymbolMT	U+2022	•	pro-ndc-1e2k-user-manual-v1.01.pdf p5
+SymbolMT-Identity-H	=	=	LEM HAB 120-V.pdf p3
+SymbolMT-Identity-H	U+00B0	°	LEM HAB 120-V.pdf p3
+SymbolMT-Identity-H	U+00D7	×	LEM HAB 120-V.pdf p3
+SymbolMT-Identity-H	U+2126	Ω	LEM HAB 120-V.pdf p3
+SymbolMT-Identity-H	U+2212	−	LEM HAB 120-V.pdf p3
+ZapfDingbats	U+25A0	■	IC-M423_1.pdf p5
+ZapfDingbats	U+2713	✓	IC-M423_1.pdf p17
+ZapfDingbats	U+2714	✔	IC-M423_1.pdf p75
+ZapfDingbats	U+274D	❍	IC-M423_1.pdf p2
+ZapfDingbats	U+27A5	➥	IC-M423_1.pdf p8
+ZapfDingbats	U+27AA	➪	IC-M423_1.pdf p25

@@ -1,0 +1,17 @@
+# One phrase per line, case-insensitive. A paragraph (not a table, list or
+# heading) containing any of these is dropped by structure.py. Marketing and
+# legal wording only; never a phrase that can occur in a technical statement.
+thank you for purchasing
+thank you for choosing
+we appreciate you
+philosophy of
+hours of research and development
+years of trouble-free
+registered trademark
+are trademarks of
+is a trademark of
+trademarks or registered trademarks
+printed on recycled paper
+printed in japan
+printed in china
+printed in the u
